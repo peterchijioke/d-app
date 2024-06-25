@@ -47,7 +47,7 @@ const Navbar = () => {
     provider = new ethers.BrowserProvider(window.ethereum);
     await provider.send("eth_requestAccounts", []);
     signer = provider.getSigner();
-    setAddress(await signer.getAddress());
+    setAddress((await signer).address);
   };
 
   const handleAbout = () => {
