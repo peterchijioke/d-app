@@ -1,5 +1,5 @@
 .navbar {
-  background-color: var(--color-navbar);
+  background-color: rgb(55, 57, 57);
   display: flex;
   justify-content: center;
   padding: 0 50px;
@@ -43,7 +43,7 @@
 }
 
 .navbarBoxTitle {
-  font-family: 'Sequel100Black-65';
+  font-family: "Sequel100Black-65";
   font-weight: 400;
   font-size: 60px;
   line-height: 94.8%;
@@ -71,7 +71,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 94.8%;
-  font-family: 'Sequel100Black-65';
+  font-family: "Sequel100Black-65";
   cursor: pointer;
 }
 

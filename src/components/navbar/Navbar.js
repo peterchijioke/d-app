@@ -377,22 +377,7 @@ iface.format(FormatTypes.full);
 
 const Navbar = () => {
   const [isConnected, setIsConnected] = useState(0);
-  //   const [Mobile, setMobile] = useState(false)
-  //   useEffect(() => {
-  //     WindowChange()
-  //   }, [])
 
-  //   //   const HandleMobileMenu = () => {
-  //   //     setMobile(!Mobile)
-  //   //   }
-
-  //   const WindowChange = () => {
-  //     if (window.innerWidth > 1050) {
-  //       setMobile(false)
-  //     }
-  //   }
-
-  //   window.addEventListener('resize', WindowChange)
   const setAddress = async (ethAddress) => {
     address = ethAddress;
     if (address !== null) {
